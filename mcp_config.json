@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "joplin_mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "--with",
+        "httpx",
+        "server.py"
+      ],
+      "env": {
+        "JOPLIN_TOKEN": "AQUI_TU_TOKEN_DE_WEB_CLIPPER",
+        "JOPLIN_PORT": "41184"
+      }
+    }
+  }
+}
