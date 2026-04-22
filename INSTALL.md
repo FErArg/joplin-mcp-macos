@@ -44,7 +44,7 @@ The easiest and quickest way to install is using the automatic installer:
 
 ```bash
 # 1. Clone the repository
-git clone <repository-url> joplin-mcp-macos
+git clone https://github.com/FErArg/joplin-mcp-macos
 cd joplin-mcp-macos
 
 # 2. Run the installer
